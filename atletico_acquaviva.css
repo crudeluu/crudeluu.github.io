@@ -1,18 +1,19 @@
 html, body {
     margin:0px;
     padding:0px;
-    background-color:black;
+    background-image: url(img/immagine_gif.gif);
     }
     #centrato {
-        background-color:#333;
+        background-image: url(img/colore.jfif);
         height:auto;
         width:1000px;
         margin-left:auto;
         margin-right:auto;
     }
-    #header {
+    #header 
+    {
         position:relative;
-        background-color:#222222;
+        background-image: url(img/colore.jfif);
         clear:both;
         height:150px;
         width:100%;
@@ -41,7 +42,7 @@ html, body {
     position:absolute;
     bottom:0px;
     width:100%;
-    background-color:#666;
+    background-image: url(img/immagine1_gif.gif);
     font-style:italic;
     color: red;
     font-size: x-large;
@@ -69,14 +70,14 @@ html, body {
     width:120px;
     }
     #secondaColonna {
-        background-color:#444444;
+        background-image: url(img/colore.jfif);
         height:auto;
         margin-left:250px;
         text-align: center;
         color: blue;
     }
     #footer {
-    background-color:#555555;
+    background-image: url(img/colore.jfif);
     clear:left;
     height:50px;
     width:100%;
