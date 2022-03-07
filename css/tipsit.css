@@ -1,0 +1,76 @@
+html, body {
+    margin:0px;
+    padding:0px;
+    background-color: blue;
+    }
+    #centrato {
+        background-image: url(../img/colore.jfif);
+        height:auto;
+        width:1000px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    #header {
+        position:relative;
+        background-image: url(../img/colore.jfif);
+        clear:both;
+        height:150px;
+        width:100%;
+    }
+    #primaColonna {
+        float:left;
+        height:auto;
+        width:20%;
+    }
+    #menuVerticale ul {
+    margin:0px;
+    padding:0px;
+    list-style-type:none;
+    }
+    #menuVerticale ul a:link, ul a:visited{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    color:white;
+    text-transform:uppercase;
+    }
+    #menuVerticale ul a:hover {
+    background-color:black;
+    }
+    #menuOr {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    background-image: url(../img/immagine1_gif.gif);
+    font-style:italic;
+    color: red;
+    font-size: x-large;
+    text-align:center;
+    
+    }
+    #menuOr ul {
+    margin:0px;
+    padding:0px;
+    overflow:hidden;
+    list-style-type:none;
+    }
+    #menuOr ul a:link , ul a:visited{
+    display:block;
+    padding:10px;
+    text-decoration:none;
+    color:white;
+    text-transform:uppercase;
+    }
+    #menuOr ul a:hover {
+    background-color:grey;
+    }
+    #menuOr ul li{
+    float:left;
+    width:120px;
+    }
+    #footer {
+    background-image: url(../img/colore.jfif);
+    clear:left;
+    height:50px;
+    width:100%;
+    }

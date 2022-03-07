@@ -1,0 +1,11 @@
+body{
+    font-family:"Century Gothic", Arial, sans-serif;
+    background-color: coral;
+    text-align: center;
+    padding:470px;
+}
+#inserire_dati
+{
+    text-align: center;
+    text-decoration: solid;
+}

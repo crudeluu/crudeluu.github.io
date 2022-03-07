@@ -1,18 +1,19 @@
 html, body {
     margin:0px;
     padding:0px;
-    background-image: url(img/immagine_gif.gif);
+    background-color: blue;
     }
     #centrato {
-        background-image: url(img/colore.jfif);
+        background-image: url(../img/colore.jfif);
         height:auto;
         width:1000px;
         margin-left:auto;
         margin-right:auto;
     }
-    #header {
+    #header 
+    {
         position:relative;
-        background-image: url(img/colore.jfif);
+        background-image: url(../img/colore.jfif);
         clear:both;
         height:150px;
         width:100%;
@@ -41,7 +42,7 @@ html, body {
     position:absolute;
     bottom:0px;
     width:100%;
-    background-image: url(img/immagine1_gif.gif);
+    background-image: url(../img/immagine1_gif.gif);
     font-style:italic;
     color: red;
     font-size: x-large;
@@ -72,6 +73,8 @@ html, body {
         background-image: url(img/colore.jfif);
         height:auto;
         margin-left:250px;
+        text-align: center;
+        color: blue;
     }
     #footer {
     background-image: url(img/colore.jfif);
@@ -79,67 +82,56 @@ html, body {
     height:50px;
     width:100%;
     }
-    #foto_sebastiano img
+    #foto_sebastiano
     {
         display:block;
         margin:0px auto;
-        width: 500px;
-        height: 370px;
+        text-align:center;
+        width: 400px;
+        height: 270px;
     }
-    #foto_colamonicochiarulli img
-    {
-        display:block;
-        margin:0px auto;
-        width: 500px;
-        height: 570px;
-    }
-    #foto_calcio img
-    {
-        display:block;
-        margin:0px auto;
-        width: 500px;
-        height: 470px; 
-    }
-    #foto_contattami img
-    {
-        display:block;
-        margin:0px auto;
-        width: 500px;
-        height: 370px; 
-    }
-    #chisono
-    {
-     font-family: 'Courier New', Courier, monospace;
-     color: white;
-     text-align: center;
-    }
-    #scuola
+    #chisiamo
     {
         font-family: 'Courier New', Courier, monospace;
         color: white;
         text-align: center;
     }
-    #calcio
+    #rosa
     {
         font-family: 'Courier New', Courier, monospace;
         color: white;
-        text-align: center;
+        text-align: left;
+        
     }
-    #contattami
+    #intestazione
+    {
+        color: red;
+    }
+    #risultati
     {
         font-family: 'Courier New', Courier, monospace;
         color: white;
-        text-align: center;
+        text-align: left;
     }
-    #atletico_acquaviva
+    #classifica
     {
-        padding:10px;
-        text-decoration:none;
-        color: blue;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        text-align: left;
     }
-    #email
+    #prima
     {
-        padding:10px;
-        text-decoration:none;
-        color: blue;
+        color: green;
+    }
+    .play_off
+    {
+        color: greenyellow;
+    }
+    .play_out
+    {
+        color: orangered;
+    }
+    #ultima
+    {
+        color: red;
     }
