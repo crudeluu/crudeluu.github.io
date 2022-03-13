@@ -1,0 +1,56 @@
+html, body 
+{
+    margin:0px;
+    padding:0px;
+    background-color: cadetblue;
+}
+#titolo
+{
+  text-align: center;
+}
+#dante
+{
+    padding-left: 500px;
+    width: 300px;
+}
+#guida_museo
+{
+    width: 700px;
+}
+#indicazioni
+{
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.orari
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.opere
+{
+    text-align: center;
+}
+#david_michelangelo
+{
+    width: 100px;
+}
+#notte_stellata
+{
+    width: 150px;
+}
+#gioconda
+{
+    width: 100px; 
+}
+#primavera
+{
+    width: 150px; 
+}
+#giudizio_universale
+{
+    width: 150px; 
+}
+#ultima_cena
+{
+    width: 150px; 
+}
