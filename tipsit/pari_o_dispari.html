@@ -1,0 +1,30 @@
+<DOCTYPE html>
+    <html lang="it">
+    <head>
+    <title> La mia pagina web</title>
+    <script>
+        function pari_dispari()
+        {
+        var input = document.getElementById('input').value;
+        var output = document.getElementById('output').value;
+            if(input%2==0)
+            {
+                document.getElementById('output').innerHTML="Output:0";
+            }
+            else
+            {
+                document.getElementById('output').innerHTML="Output:1";
+            }
+        }
+    
+    </script>
+    </head>
+    <body>
+        <h1>inserire il numero</h1> 
+        <input id="input" type="text" name="numero">
+        <button onclick="pari_dispari()">verifica<br/></button>
+            <div>
+                <p id="output"></p>
+            </div>
+    </body>
+    </HTML>

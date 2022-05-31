@@ -1,0 +1,30 @@
+<DOCTYPE html>
+    <html lang="it">
+    <head>
+    <title> La mia pagina web</title>
+    <script>
+        function verifica()
+        {
+        var number = document.getElementById('number').value;
+        var image = document.getElementById('immagine');
+            if(number > 18)
+            {
+                image.src = "luna.jfif";
+            }
+            else
+            {
+                image.src= "sole.jpg";
+            }
+        }
+    
+    </script>
+    </head>
+    <body>
+        <h1>inserire il numero</h1> 
+        <input id="number" type="text" name="n1">
+        <button onclick="verifica()">verifica<br/></button>
+            <div>
+                <img id="immagine">
+            </div>
+    </body>
+    </HTML>

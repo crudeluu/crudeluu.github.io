@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<title>esercizio js IF</title>
+<script>
+
+function voti()
+{
+    var number=document.getElementById('number').value;
+    if (number > 7) 
+        {
+        document.getElementById('para').innerHTML="ottimo";
+        document.getElementById('div').style.color = "#00FF00";
+        }
+    if (number > 4 && number < 8)
+        {
+        document.getElementById('para').innerHTML="sufficiente";
+        document.getElementById('div').style.color = "#FF8000";
+        }  
+    if (number < 5)
+        {
+        document.getElementById('para').innerHTML="insufficiente";
+        document.getElementById('div').style.color = "#FF0000";
+        }
+}    
+</script>
+</head>
+<body>
+    <br/>
+    <br/>
+    <h1>Inserisci il voto</h1>
+    <br/>
+    <br/>
+    <select name="voti" id="number">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+    <button onclick="voti()">controlla numero</button>
+    <div id="div">
+        <p id="para"></p>
+    </div>
+</body>
+</html>
